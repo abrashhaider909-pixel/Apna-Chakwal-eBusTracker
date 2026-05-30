@@ -1,24 +1,19 @@
-
 {
   "name": "Chakwal Bus Tracker",
-  "short_name": "ChakwalBus",
-  "description": "Real-time bus tracking for Chakwal city routes.",
-  "start_url": "/",
+  "short_name": "Bus Tracker",
   "display": "standalone",
-  "background_color": "#ffffff",
   "theme_color": "#00897b",
-  "orientation": "portrait-primary",
+  "background_color": "#ffffff",
   "icons": [
     {
-      "src": "/app-icon.svg",
+      "src": "/app-icon-192.png",
       "sizes": "192x192",
-      "type": "image/svg+xml"
+      "type": "image/png"
     },
     {
-      "src": "/app-icon.svg",
+      "src": "/app-icon-512.png",
       "sizes": "512x512",
-      "type": "image/svg+xml"
+      "type": "image/png"
     }
   ]
 }
-
