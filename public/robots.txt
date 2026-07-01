@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abrashhaider909-pixel.github.io/Apna-Chakwal-eBusTracker/sitemap.xml

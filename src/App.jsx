@@ -9,7 +9,7 @@ const App = () => {
     <>
       {/* NAV */}
       <nav className="nav">
-        <a href="#" className="nav-logo"><i className="fa-solid fa-location-dot"/>Chakwal Bus Tracker</a>
+        <a href="#" className="nav-logo"><i className="fa-solid fa-location-dot"/>ApnaChakwaleBusTracker</a>
         <div className="nav-links">
           <a href="#">Home</a>
           <a href="#tracker">Tracker</a>
@@ -21,8 +21,8 @@ const App = () => {
 
       {/* HERO */}
       <section className="hero">
-        <h1>Smart Transit for<br/>Chakwal City</h1>
-        <p>Real-time bus tracking for Balkassar, Dhudial, and Mulhal Mughlan routes — built with exact schedule data for every stop.</p>
+        <h1>ApnaChakwaleBusTracker</h1>
+        <p>Smart transit for Chakwal City with live bus tracking for Balkassar, Dhudial, and Mulhal Mughlan routes — built with exact schedule data for every stop.</p>
         <a href="#tracker" className="hero-btn">Start Tracking <i className="fa-solid fa-arrow-right"/></a>
         <div className="hero-stats">
           <div className="hero-stat"><div className="hero-stat-num">3</div><div className="hero-stat-label">Routes</div></div>
@@ -48,7 +48,7 @@ const App = () => {
       <section className="section">
         <div className="container">
           <div className="section-head">
-            <h2>Why Chakwal Bus Tracker?</h2>
+            <h2>Why ApnaChakwaleBusTracker?</h2>
             <p>Designed specifically for the people of Chakwal</p>
           </div>
           <div className="features-grid">
