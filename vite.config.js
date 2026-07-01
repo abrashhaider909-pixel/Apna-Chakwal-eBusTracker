@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  base: '/Apna-Chakwal-eBusTracker/',
   test: {
     include: ['src/**/*.{test,spec}.js'],
     exclude: ['.tsupgrader/**', 'node_modules/**']
