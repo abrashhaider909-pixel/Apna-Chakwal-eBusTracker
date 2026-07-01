@@ -4,6 +4,10 @@ import tailwindcss from '@tailwindcss/vite'
 import { VitePWA } from 'vite-plugin-pwa'
 
 export default defineConfig({
+  test: {
+    include: ['src/**/*.{test,spec}.js'],
+    exclude: ['.tsupgrader/**', 'node_modules/**']
+  },
   plugins: [
     react(),
     tailwindcss(),
